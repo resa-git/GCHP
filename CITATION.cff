@@ -1,0 +1,23 @@
+abstract: This code implements the General Compound Hawkes Process (GCHP) to estimate price volatility in Limit Order Books (LOB).
+authors:
+  - family-names:Dadfar
+    given-names: Reza
+    orcid: "https://orcid.org/0000-0003-1422-1544"
+cff-version: 1.0.0
+date-released: "2023-09-28"
+identifiers:
+  - type: url
+    value: "https://github.com/resa-git/GCHP"
+    description: Latest version
+keywords:
+  - "General Compound Hawkes Process"
+  - "Limit Order Book data"
+  - "Mid-price prediction"
+  - "Stock price forecasting"
+  - "High-frequency financial data"
+  - "Volatility estimation"
+  - "Markov chain"
+license: Apache-2.0
+message: If you use this software, please cite it using these metadata.
+repository-code: "https://github.com/resa-git/GCHP"
+title: FSquaDRA

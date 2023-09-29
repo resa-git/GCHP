@@ -12,15 +12,15 @@ Using a Docker image can simplify the setup process to run the code!
 Navigate to the `docker` folder and build the Docker image by running the following command:
 ```sh
 docker build -t [dockerUserName]/hawkes:latest .
-
+```
 ### To run on a Linux system:
 ```sh
 sudo docker run --rm -it -p 8888:8888 -v "$(pwd)"/GCHP:/home/jovyan/work [dockerUserName]/hawkes:latest /bin/bash
-
+```
 ### To run on a Windows system:
 ```sh
 sudo docker run --rm -it -p 8888:8888 -v %cd%/GCHP:/home/jovyan/work [dockerUserName]/hawkes:latest /bin/bash
-
+```
 ## Additional Information
 For more details and clarifications, please refer to the respective **ReadMe.md** files within each folder. This repository is intended to provide a clear and concise implementation of GCHP for those interested in financial market predictions and analysis.
 

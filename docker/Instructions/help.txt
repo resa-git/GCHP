@@ -1,0 +1,12 @@
+docker run  --rm -it -p 8888:8888  -v %cd%/mypath:/home/jovyan/work resagit/hawkes:latest /bin/bash
+
+conda activate ml
+ipython kernel install --user --name=ml
+conda deactivate
+conda activate ml
+
+conda install -c conda-forge -y mscorefonts
+
+jupyter-lab --no-browser
+
+

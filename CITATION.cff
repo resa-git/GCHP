@@ -4,7 +4,7 @@ authors:
 - family-names: "Dadfar"
   given-names: "Reza"
   orcid: "https://orcid.org/0000-0003-1422-1544"
-title: "GCHP for estimating volatility in LOB"
-version: 2.0.4
+title: "Implementation of General Compound Hawkes Process for Volatility Estimation in Limit Order Books"
+version: 1.0.0
 date-released: 2023-09-28
 url: "https://github.com/resa-git/GCHP"

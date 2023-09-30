@@ -11,7 +11,7 @@
 - `GOOG_nstate.ipynb`
 
 ### GHCP with higher order Markov chain
-- `MSFT_nMarkov.ipynb`
+- `AAPL_nMarkov.ipynb`
 - `AMZN_nMarkov.ipynb`
 
 ### GHCP with synthesis data
